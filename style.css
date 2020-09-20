@@ -1,13 +1,13 @@
 
 body{
     background-color: rgba(64, 60, 60, 0.57);
-    background: url(pexels-rafael-barros-3809072.jpg);
+    background: url(pexels-c%C3%A1tia-matos-1072179.jpg);
     
     background-size: cover;
 }
 .container {
     border:1px solid #007680;
-    background: #437798;
+    background: rgba(19, 51, 70, 0.56);
     width:50%;
     height: 450px;
     margin:auto;
@@ -95,7 +95,7 @@ button{
     margin-top: 20px;
 }
 
-a {
+.sign,.log {
     text-decoration: none;
     color: white;
 /*    margin-right: 10px;*/
@@ -106,8 +106,35 @@ a {
     font-family: 'Roboto', sans-serif;
     
 }
-a:hover{
+.sign:hover,.log:hover{
     background-color: #40c62f;
 }
 
 
+
+.icons{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 10px;
+}
+img {
+    width: 25px;
+    height: 25px;
+}
+
+.symbols {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+
+}
+.symbols li a{
+    margin-right: 10px;
+}
+img{
+    transform: scale(.9)
+}
+img:hover{
+    transform: scale(1.9);
+}
