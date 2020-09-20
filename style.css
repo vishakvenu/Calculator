@@ -57,7 +57,7 @@ button{
     border-color: #2ecc71;
 }
 
-#sum,#product,#fact{
+#sum,#product,#fact,#clear{
     border: 0;
     background: none;
     display: inline;
@@ -69,12 +69,16 @@ button{
 #sum:hover,#product:hover,#fact:hover{
     background: #2ecc71;
 }
+#clear:hover{
+    background: #2ecc71;
+}
 
 .heading {
     text-transform: uppercase;
     font-weight: 300;
     font-family: 'Anton', sans-serif;
-    color: #efbebe;
+    color: #f0dcdc;
+    text-shadow: 2px 2px #381212;
 /*    border: 2px solid white;*/
     word-spacing: 2px;
 }

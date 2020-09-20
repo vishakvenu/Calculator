@@ -26,6 +26,7 @@
             <button id="sum">Sum</button>
         <button id="product">product</button>
         <button id="fact">Factorial</button>
+        <button id="clear">clear</button>
             </span>
             </div>
         
@@ -54,6 +55,15 @@
                 document.getElementById("factorial").value=ans
                     
             })
+            
+            var x=document.getElementById("clear")
+            x.addEventListener("click",function(){
+                document.getElementById("frst-nmbr").value=" ";
+                document.getElementById("scnd-nmbr").value=" ";
+                document.getElementById("result").value=" ";
+                document.getElementById("factorial").value=" "
+                
+;            })
         
         </script>
         
