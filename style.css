@@ -1,7 +1,7 @@
 
 body{
     background-color: rgba(64, 60, 60, 0.57);
-    background: url(pexels-c%C3%A1tia-matos-1072179.jpg);
+    background: url(images/pexels-c%C3%A1tia-matos-1072179.jpg);
     
     background-size: cover;
 }
@@ -92,22 +92,22 @@ button{
     margin-right: 10px;
     right: 0;
     top: 0;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 
-.sign,.log {
+.sign,.log,.about {
     text-decoration: none;
     color: white;
 /*    margin-right: 10px;*/
-    padding: 15px;
+    padding: 10px;
     border: 2px solid #164e2e;
     margin: 10px;
     border-radius: 24px;
     font-family: 'Roboto', sans-serif;
     
 }
-.sign:hover,.log:hover{
-    background-color: #40c62f;
+.sign:hover,.log:hover,.about:hover{
+    background-color: #329325;
 }
 
 
@@ -136,5 +136,7 @@ img{
     transform: scale(.9)
 }
 img:hover{
-    transform: scale(1.9);
+    transform: scale(1.8) ;
+/*    transform: translate(10px,0px);*/
+    
 }
