@@ -119,8 +119,10 @@ button{
     margin-right: 10px;
 }
 img {
-    width: 25px;
+   width: 25px;
     height: 25px;
+    transform: scale(1);
+    transition: .3s;
 }
 
 .symbols {
@@ -132,11 +134,9 @@ img {
 .symbols li a{
     margin-right: 10px;
 }
-img{
-    transform: scale(.9)
-}
+
 img:hover{
-    transform: scale(1.8) ;
+    transform: scale(2) ;
 /*    transform: translate(10px,0px);*/
     
 }
