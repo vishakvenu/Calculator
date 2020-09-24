@@ -4,6 +4,8 @@ body{
     background-color: blue;
     background: url(pexels-pixabay-355465.jpg);
     background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
     
     
 }
@@ -63,6 +65,7 @@ form{
 /*    font-family: 'Oswald', sans-serif;*/
     
 }
+
 form .submit:hover{
     background-color: #f44336;
     cursor: pointer;
@@ -154,4 +157,7 @@ p:hover{
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
     font-weight: 200;
+}
+input:focus{
+    border: none;
 }

@@ -5,6 +5,8 @@ body{
     background-repeat: no-repeat;
     
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 .container {
     border:1px solid #007680;
@@ -81,7 +83,7 @@ button{
     text-transform: uppercase;
     font-weight: 300;
     font-family: 'Anton', sans-serif;
-    color: #f0dcdc;
+    color: #fdf9f9;
     text-shadow: 2px 2px #381212;
 /*    border: 2px solid white;*/
     word-spacing: 2px;

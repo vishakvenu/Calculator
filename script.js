@@ -20,12 +20,12 @@ ans=ans*i;
 document.getElementById("factorial").value=ans
                     
 })
-var x=document.getElementById("clear")
-x.addEventListener("click",function(){
-document.getElementById("frst-nmbr").value=" ";
-document.getElementById("scnd-nmbr").value=" ";
-document.getElementById("result").value=" ";
-document.getElementById("factorial").value=" "
-                
-;            })
-        
+let btnclr=document.getElementById("clear")
+let inputs=document.querySelectorAll("input");
+btnclr.addEventListener('click',function(){
+    inputs.forEach(input=>{input.value=''});
+})
+
+document.querySelector(".log").addEventListener('click',function(){
+    alert("The log-in page is in Development;");
+})
